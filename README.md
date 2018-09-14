@@ -1,3 +1,6 @@
+Actividad realizada por
+Carolina Ochoa Guzman
+Diego Alejandro Cruz.
 
 Dentro de nuestra utility app encontramos una aplicación de manejo del tiempo.
 
