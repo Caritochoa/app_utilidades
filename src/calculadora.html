@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1,0">
+	<link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
+  </head>
+	<title>Calculadora</title>
+</head>
+<body>
+	<h1 align="center">Calculadora</h1>
+
+	<script src="js/calculadora.js"></script>
+	<div class="form-control">
+		<span class="input-group-addon">Numero1</span>
+		<input id="a" type="text" class="form-control" style="border: 5px solid #000000" >
+		<hr>
+		<span class="input-group-addon">Numero2</span>
+		<input id="b" type="text" class="form-control" style="border: 5px solid #000000">
+		<hr>
+		<input type="button" class="btn btn-primary" onclick="suma(document.getElementById('a').value,document.getElementById('b').value);" value="suma"/>
+		<input type="button" class="btn btn-primary" onclick="resta(document.getElementById('a').value,document.getElementById('b').value);" value="resta"/>
+		<hr>
+		<input type="button" class="btn btn-primary" onclick="multiplicacion(document.getElementById('a').value,document.getElementById('b').value);" value="multiplicacion"/>
+		<input type="button" class="btn btn-primary" onclick="division(document.getElementById('a').value,document.getElementById('b').value);" value="division"/>
+	</div>
+
+</body>
+</html>
